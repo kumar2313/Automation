@@ -1,0 +1,140 @@
+.Chardata{
+    width:70%;
+    height:150px;
+}
+
+.chartdetails{
+    z-index: 9;
+    /* width:700px; */
+    width:80%;
+    /* height: 400px; */
+    overflow-x: scroll;
+    background-color: white;
+    position: fixed;
+    display: block;
+    top :200px;
+    left:30px;
+    float:none;
+    border:var(--dxRadialTextcolor) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    /* border-radius: 10px; */
+    /* border-width: 1px; */
+}
+
+.charthead{
+    /* float:left; */
+    width:100%;
+    background-color: var(--dxRadialTextcolor);
+    border: 1px solid white;
+}
+
+.cheads{
+    display: flex;
+    /* background-color: red; */
+    float: left;
+    width:93%;
+    color: white;
+}
+
+.cclosebutton{
+    background: none !important;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    /* float: right !important; */
+}
+
+/* .chart-container {
+    width: 100%;
+    height:200px;
+ } */
+
+ 
+ 
+
+ /* .grid-child:first-child {
+    margin-right: 20px;
+}  */
+
+ .grid-child{
+    width:fit-content !important;
+    /* flex: 1; */
+    /* border: 2px solid yellow; */
+    padding: 10px 15px;
+    color: white;
+ }
+
+
+.grid-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px; */
+    /* background-color: red; */
+    font-size: 14px;
+  font-weight: 400;
+    background-color: DeepSkyBlue;
+    display: flex;
+}
+
+
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid blue;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  /* font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  /* padding: 8px .8em; */
+  padding: 3px;
+  width:100px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: blue;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: blue;
+}
+
+/* .react-datepicker_input-container > input */
+
+.datePicker{
+    font-size: 14px;
+    background-color: #e1ecf4 !important;
+    border: none;
+}
+
+
+
+

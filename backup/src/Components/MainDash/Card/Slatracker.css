@@ -1,0 +1,230 @@
+.fixed_header {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    height: 600px;
+    /* overflow: auto; */
+    /* overflow-y: scroll; */
+    overflow-x: scroll;
+
+  }
+
+  /* .fixed_header table{
+      width: 100%;
+      table-layout: fixed;
+  } */
+
+  .fixed_header tbody {
+    display: block;
+    /* width: 100%; */
+    overflow: auto;
+    height: 500px;
+  }
+ 
+  /* .fixed_header th, */
+  .fixed_header th {
+   
+    /* text-align: left; */
+    /* width: 20px; */
+    border: 1px solid CornflowerBlue;
+    word-wrap: break-word;
+    /* align-content: center; */
+    text-align: center;
+    
+
+  }
+
+  .fixed_header td {
+    /* border: 1px solid DeepSkyBlue; */
+font-size: 12px;
+  }
+
+  .mainheader > th{
+    text-align: center;
+  }
+  .mainheader{
+    background: CornflowerBlue;
+    color: white;
+    font-size: 12px;
+    border: 1px solid DeepSkyBlue;
+
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+
+    height:30px;
+    
+  }
+
+  .mainheader1 > th{
+    text-align: center;
+  }
+  .mainheader1{
+    background: DeepSkyBlue;
+    color: white;
+    font-size: 12px;
+    border: 1px solid DeepSkyBlue;
+
+    align-content: center;
+    /* width:50px; */
+    position: sticky;
+    top: 30px;
+    z-index: 1; 
+
+  }
+
+  .mainheader2{
+    background: DeepSkyBlue;
+    color: white;
+    font-size: 12px;
+    border: 1px solid DeepSkyBlue;
+
+    align-content: center;
+    /* width:50px; */
+    position: sticky;
+    top: 69px;
+    z-index: 1; 
+
+  }
+
+  .repheader{
+      background-color: DarkBlue;
+  }
+
+  .headregion{
+      background-color: DarkSlateBlue;
+  }
+
+  .headregion2{
+      background-color: SlateBlue;
+  }
+
+
+  .grid-child{
+    width:fit-content !important;
+    z-index: 11;
+    /* flex: 1; */
+    /* border: 2px solid yellow; */
+    padding: 10px 15px;
+    color: white;
+ }
+
+
+.grid-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px; */
+    /* background-color: red; */
+    font-size: 14px;
+  font-weight: 400;
+    background-color: CornflowerBlue;
+    display: flex;
+}
+
+.tabrow{
+    text-align: center;
+    border: 1px solid DeepSkyBlue;
+}
+
+.alertdata{
+    color: coral;
+    font-size: 30px;
+
+}
+
+.tickdata{
+    color: PaleGreen;
+    font-size: 30px;
+}
+
+
+.datadetails{
+    z-index: 10;
+    /* width:700px; */
+    width:80%;
+    /* height: 400px; */
+    overflow-x: scroll;
+    /* background-color: sandybrown; */
+    position: fixed;
+    display: block;
+    top :200px;
+    left:30px;
+    float:none;
+    border:var(--dxRadialTextcolor) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    /* border-radius: 10px; */
+    /* border-width: 1px; */
+}
+
+.headshow{
+    /* float:left; */
+    width:100%;
+    background-color: var(--dxRadialTextcolor);
+    border: 1px solid white;
+}
+
+.heads{
+    display: flex;
+    /* background-color: red; */
+    float: left;
+    width:93%;
+    color: white;
+}
+
+.closebutton{
+    background: none !important;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    /* float: right !important; */
+}
+
+.clsbtn{
+    height:30px !important;
+    width:30px !important;
+    color: white;
+
+}
+.clsbtn1{
+    color: blue;
+    font-size: 25px;
+}
+
+
+.formalign{
+    padding: 20px;
+    background-color: white;
+    display: grid;
+  grid-template-columns: auto auto;
+}
+
+.datadetailsf{
+    z-index: 10;
+    /* width:700px; */
+    width:30%;
+    /* height: 400px; */
+    /* overflow-x: scroll; */
+    /* background-color: sandybrown; */
+    position: fixed;
+    display: block;
+    top :250px;
+    left:100px;
+    float:none;
+    border:var(--dxRadialTextcolor) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    /* border-radius: 10px; */
+    /* border-width: 1px; */
+}
+
+.headshowf{
+    /* float:left; */
+    width:100%;
+    background-color: var(--dxRadialTextcolor);
+    border: 1px solid white;
+}

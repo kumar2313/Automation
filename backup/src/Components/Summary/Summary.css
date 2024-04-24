@@ -1,0 +1,55 @@
+
+  .myicon{
+    /* top: 50%; */
+    left: 2px;
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .myicon2{
+    /* top: 50%; */
+
+    font-size: 15px;
+
+  }
+
+  .AlertMessage{
+    width:600px !important;
+    
+    /* height: 5rem; */
+   
+    /* float: left; */
+    
+    /* grid-template-columns: auto auto auto auto auto; */
+    /* display: block; */
+    position:fixed !important; 
+    /* position:sticky; */
+    z-index: 10 !important; 
+    top: 10% !important;
+    left: 60% !important;
+    background-color: var(--yellow) !important;
+    opacity: 0.8;
+    border-color: blueviolet;
+}
+
+.impitems{
+    height:250px !important;
+    overflow-y: scroll;
+    
+    
+}
+
+.alerterror{
+  background-color: rgb(214, 182, 171);
+  margin-top: 3px;
+}
+
+.alerticon{
+  /* top: 50%; */
+  left: 2px;
+  color:red;
+  font-size: 20px;
+  
+  margin-right: 10px;
+}

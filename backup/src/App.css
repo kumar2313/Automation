@@ -1,0 +1,131 @@
+/* define color coding used in the project */
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+    /* --purple:white; */
+  --pink: #FF919D;
+  /* --natwest: #9f3bbd; */
+  --natwest: purple;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+  --bxshadowRadial: #d4e64f;
+  --bxshadowRadialShadow: white;
+  /* --dxRadialTextcolor: #9f3bbd; */
+  --dxRadialTextcolor:CornflowerBlue;
+  --glassNatwest: rgba(210, 20, 207, 0.84);
+  /* --glassNatwest:CornflowerBlue; */
+  --newblue:DeepSkyBlue;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-right: 2rem;
+  z-index: 1;
+}
+
+.logohead {
+  color: white !important;
+  /* background-color: green; */
+  /* z-index: 1; */
+
+}
+
+.AppGlass {
+  /* display: grid; */
+  /* top:2%; */
+  /* margin-left: 1rem; */
+  height: 100%;
+  width: 100%;
+  background-color: var(--glass);
+  /* background-color: red; */
+
+  /* background-color: #d4e64f; */
+  border-radius: 15px;
+  /* overflow:hidden; */
+  /* grid-template-columns: 11rem auto 20rem; */
+  /* grid-template-columns: 15rem auto ; */
+}
+
+.btnBack {
+  /* margin-top:1%; */
+  top: .4rem;
+  /* margin-left: 85%; */
+  /* float: right; */
+  z-index: 10;
+  /* display:block; */
+  flex-direction: column;
+  position: fixed;
+
+/* position: absolute; */
+  /* animation: mymove infinite;
+  animation-duration: 3s; */
+  /* z-index: 11; */
+  /* margin-top: 5.5%; */
+  /* float: right; */
+  /* margin-right: 1%; */
+  right: .4rem;  
+/* top: 0; */
+
+}
+
+.btnbck {
+  border-radius: 50px;
+  border: 2px solid var(--bxshadowRadialShadow);
+  color: var(--bxshadowRadialShadow);
+  background-color: var(--newblue);
+  font-size: 15px;
+  height: 60px;
+  width: 100px;
+  margin-left: 10px;
+  /* position: fixed; */
+  /* top:20px;
+  z-index: 10; */
+  /* float: right; */
+
+  /* text */
+}
+
+.btnbck:hover {
+  border-radius: 10px;
+  background-color: var(--bxshadowRadialShadow);
+  color: var(--natwest);
+  box-shadow: var(--activeItem) 0 -6px 8px inset;
+  transform: scale(1.125);
+  /* width: 100px; */
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.logo {
+  float: left !important;
+  margin-left: 20px !important;
+  margin-top: 10px !important;
+  margin-right: 2rem !important;
+  z-index: 1 !important;
+  /* background-color: red !important; */
+  width: 10% !important;
+  text-align: center;
+
+}
+
+.logohead {
+  color: white !important;
+  font-size: 12px;
+  /* background-color: green; */
+
+  /* z-index: 1; */
+
+}
+
+.mainlogo {
+  width: 60%;
+}
+
+

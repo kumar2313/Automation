@@ -1,0 +1,149 @@
+.tradelevel{
+    width:410px;
+    /* height:300px; */
+    font-size: 10px;
+    text-align: center;
+    /* background-color: sandybrown; */
+    margin: 5px;
+    float: left;
+}
+
+.reportlevel{
+    width:700px;
+    /* height:300px; */
+    font-size: 10px;
+    text-align: center;
+    /* background-color: sandybrown; */
+    margin: 5px;
+    float: left;
+}
+
+.tradesummary{
+    /* display: grid; */
+    /* grid-column: 3; */
+    /* grid-row: 5; */
+    /* grid: auto  auto  auto ; */
+    /* top:50px; */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  width: 100%;
+  /* padding: 2px; */
+  /* width:fit-content; */
+}
+
+.tradesummarymain{
+    padding: 30px;
+    /* background-color: greenyellow; */
+    float: left;
+    /* column-span: 2; */
+}
+
+.tradeleve2{
+    float: left;
+    /* width:977px; */
+    width:fit-content;
+    /* width:1100px; */
+    /* height:300px; */
+    font-size: 10px;
+    text-align: center;
+    /* background-color: sandybrown; */
+    margin: 5px;
+    /* float: left; */
+}
+
+.repload{
+    float: left;
+}
+
+.repjobs{
+    /* width:977px; */
+    /* width: 7px;0%; */
+    width:fit-content;
+    /* width:1100px; */
+    /* height:300px; */
+    font-size: 10px;
+    text-align: center;
+    /* background-color: sandybrown; */
+    margin: 5px;
+    /* float: left; */
+}
+
+.headdiv{
+    /* float:left; */
+    width:99.8% !important;
+    height: fit-content;
+    /* background-color: var(--dxRadialTextcolor); */
+    background-color:white !important;
+    height: 30px;;
+}
+.headingtext{
+    /* display: flex; */
+    display:inline-flex;
+    /* background-color: red; */
+    float:left;
+    width:91% !important;
+    color: black !important;
+}
+
+.Restbutt{
+    /* background: none !important; */
+	/* color: inherit; */
+    color:blue;
+    background-color: white;
+    /* background-color: DeepSkyBlue; */
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 14px;
+    /* float: right !important; */
+}
+
+
+.Restbutt:hover{
+    color:Coral;
+    background-color: white;
+    /* background-color: DeepSkyBlue; */
+	border-style:dotted !important;
+      border-width: 2px !important;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 14px;
+}
+
+
+
+.statusbar{
+    background-color: CornflowerBlue;
+    /* height: 70px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* #justify-tab-example{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+} */
+
+.nav-item > button{
+    text-decoration: none;
+    background-color: DeepSkyBlue;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* cornflowerblue */
+/* .nav-item > button:active{
+    text-decoration: none;
+    background-color: DarkSlateBlue;
+    color: green;
+} */
+

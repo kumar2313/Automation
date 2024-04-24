@@ -1,0 +1,113 @@
+
+/* .rdt_Table .rdt_TableRow:hover {
+    background-color: #aaa;
+    color: purple;
+    border: 10px;
+    border-style:solid;
+    border-color: purple;
+  } */
+
+  .datadetailsdrill{
+    z-index: 12;
+    /* width:700px; */
+    width:80%;
+    /* height: 400px; */
+    overflow-x: scroll;
+    /* background-color: sandybrown; */
+    position: fixed;
+    display: block;
+    top :250px;
+    left:50px;
+    float:none;
+    border:var(--dxRadialTextcolor) !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    /* border-radius: 10px; */
+    /* border-width: 1px; */
+}
+
+.datadetailsdrill > div > .rdt_Pagination{
+    /* display: block !important; */
+    /* float:none; */
+    position:unset !important;
+    height:0.5rem !important;
+    
+
+  }
+
+  .datadetails{
+      z-index: 10;
+      /* width:700px; */
+      width:80%;
+      /* height: 400px; */
+      overflow-x: scroll;
+      /* background-color: sandybrown; */
+      position: fixed;
+      display: block;
+      top :200px;
+      left:30px;
+      float:none;
+      border:var(--dxRadialTextcolor) !important;
+      border-style: solid !important;
+      border-width: 2px !important;
+      /* border-radius: 10px; */
+      /* border-width: 1px; */
+  }
+
+  .datadetails > div > .rdt_Pagination{
+    /* display: block !important; */
+    /* float:none; */
+    position:unset !important;
+    height:0.5rem !important;
+    
+
+  }
+  .loadDetails{
+    /* display: block;
+    float:none; */
+    position: relative !important;
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+
+  }
+  
+
+
+
+.closebutton{
+    background: none !important;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    /* float: right !important; */
+}
+
+.clsbtn{
+    height:30px !important;
+    width:30px !important;
+    color: white;
+
+}
+
+.headshow{
+    /* float:left; */
+    width:100%;
+    background-color: var(--dxRadialTextcolor);
+    border: 1px solid white;
+}
+
+.headshowdrill{
+    /* float:left; */
+    width:100%;
+    background-color: DarkSlateBlue;
+}
+.heads{
+    display: flex;
+    /* background-color: red; */
+    float: left;
+    width:93%;
+    color: white;
+}

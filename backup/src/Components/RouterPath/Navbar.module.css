@@ -1,0 +1,25 @@
+nav {
+    background-color: var(--dxRadialTextcolor);
+    padding: 0px;
+    height: 5rem;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top:0;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-top: 2rem;
+    
+}
+/* nav a.active{
+    font-weight: bold;
+    font-size: 25px;
+} */
+
+
+
+  
